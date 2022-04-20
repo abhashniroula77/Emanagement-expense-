@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trips"
+            android:icon="@drawable/t"
+            android:title="View Trips" />
+        <item
+            android:id="@+id/addexpense"
+            android:icon="@drawable/t"
+            android:title="Add Expenses" />
+
+        <item
+            android:id="@+id/deleteall"
+            android:icon="@drawable/ic_baseline_delete"
+            android:title=" Delete All" />
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exi"
+            android:title="Exit" />
+        <item
+            android:id="@+id/upload_into_webservices"
+            android:icon="@drawable/exi"
+            android:title="Upload into server" />
+
+    </group>
+    <item android:title="Expenses">
+        <menu>
+            <item
+                android:id="@+id/day"
+                android:icon="@drawable/er"
+                android:title="Day Expenses" />
+            <item
+                android:id="@+id/trip"
+                android:icon="@drawable/er"
+                android:title="Expenses by Trip" />
+            <item
+                android:id="@+id/category"
+                android:icon="@drawable/er"
+                android:title="Expenses by Category" />
+        </menu>
+    </item>
+
+
+</menu>

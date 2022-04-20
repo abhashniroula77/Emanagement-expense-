@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.reman.Mexpense.NewTrips"
+    android:background="@drawable/bg">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="200dp"
+        android:layout_height="50sp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/cornerss"
+        android:hint="Title Of journey"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText1"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/cornerss"
+        android:hint="Enter Source"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <AutoCompleteTextView
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/cornerss"
+        android:hint="Enter Destination"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custombg"
+        android:onClick="addTrip"
+        android:text="Add Trip"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/cornerss"
+        android:hint="Date of Start"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/cornerss"
+        android:hint="Date of End"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/cornerss"
+        android:padding="10dp"
+        android:paddingLeft="8dp"
+        android:text="Risk assessment "
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <Spinner
+        android:id="@+id/spYesNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_alignEnd="@+id/tv"
+        android:layout_alignRight="@+id/tv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/cornerss"
+        android:entries="@array/yesno"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cornerss"
+        android:hint=" Approved Budget"
+        android:numeric="decimal"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="#000000" />
+</RelativeLayout>

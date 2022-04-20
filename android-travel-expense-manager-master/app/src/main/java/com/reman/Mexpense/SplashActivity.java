@@ -1,0 +1,49 @@
+package com.reman.Mexpense;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import com.reman.Mexpense.R;
+
+public class SplashActivity extends AppCompatActivity
+{
+    Thread t;
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+        t=new Thread()
+        {
+            public void run()
+            {
+
+                try
+                {
+                    Thread.sleep(3000);
+
+
+                }
+                catch(Exception e)
+                {
+                }
+                finally
+                {
+                    Intent i = new Intent(SplashActivity.this, Main2Activity.class);
+                    startActivity(i);
+                    finish();
+
+                }
+            }
+        };
+        t.start();
+    }
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        System.exit(0);
+
+
+    }
+}

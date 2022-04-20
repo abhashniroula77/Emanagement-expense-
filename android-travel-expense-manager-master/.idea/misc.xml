@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/drawable/ic_baseline_delete.xml" value="0.1125" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/drawable/ic_baseline_search.xml" value="0.2203125" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_category_wise_expense.xml" value="0.1" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_day_wise_expense.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_new_trips.xml" value="0.33" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_trip_wise_expense.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list1.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list2.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list3.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_update.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/activity_viewdetails.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/app_bar_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/content_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/expense.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/layout/nav_header_main2.xml" value="0.22" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/menu/activity_main2_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/menu/context_menu.xml" value="0.22" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/menu/main2.xml" value="0.33" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/menu/optionmenu.xml" value="0.33" />
+        <entry key="..\:/android travel/android-travel-expense-manager-master/app/src/main/res/menu/search_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_category_expense.xml" value="0.15172101449275363" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_day_expense.xml" value="0.15172101449275363" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_main.xml" value="0.15172101449275363" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_main2.xml" value="0.15172101449275363" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_new_trips.xml" value="0.15172101449275363" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_splash.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_trip_expense.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list1.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list2.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_trips_list3.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_update.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/activity_viewdetails.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/app_bar_main2.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/content_main2.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/expense.xml" value="0.24230072463768115" />
+        <entry key="..\:/projectandroidcordova/android-travel-expense-manager-master/app/src/main/res/layout/nav_header_main2.xml" value="0.24230072463768115" />
+        <entry key="app/src/main/res/layout/activity_category_wise_expense.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/activity_day_wise_expense.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/layout/activity_new_trips.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/layout/nav_header_main2.xml" value="0.2015625" />
+        <entry key="app/src/main/res/menu/activity_main2_drawer.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/menu/context_menu.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/menu/main2.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/menu/optionmenu.xml" value="0.19479166666666667" />
+        <entry key="app/src/main/res/menu/search_menu.xml" value="0.16510416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
